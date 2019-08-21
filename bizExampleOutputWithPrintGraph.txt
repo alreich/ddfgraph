@@ -1,0 +1,405 @@
+Loading from 'data/bizDataTEST.csv'
+Loading completed.
+
+Query runtime: 0.00400018692017 seconds
+
+Answers:
+[{'contrib': u'contrib252', 'person': u'Dave Camp', 'dollars': 5000.0}, {'contrib': u'contrib250', 'person': u'John Campbell', 'dollars': 5000.0}, {'contrib': u'contrib251', 'person': u'Jerry Moran', 'dollars': 3250.0}, {'contrib': u'contrib1556', 'person': u'Pete King', 'dollars': 5000.0}]
+
+The data set contains 4 contributions.  Here are the ones over $0:
+u'Dave Camp' received a contribution of $5000.0
+u'John Campbell' received a contribution of $5000.0
+u'Jerry Moran' received a contribution of $3250.0
+u'Pete King' received a contribution of $5000.0
+
+==================================================
+             D D F   G r a p h 
+
+                PREDICATES
+PredKey, PredName, DomainConcept, RangeConcept
+--------------------------------------------------
+Predicate-Key-5, name, TradingSymbol, Company
+Predicate-Key-4, industry, TradingSymbol, Industry
+Predicate-Key-7, revenue, TradingSymbol, Dollars
+Predicate-Key-6, recipient, Contribution, Person
+Predicate-Key-1, contributor, Contribution, TradingSymbol
+Predicate-Key-0, amount, Contribution, Dollars
+Predicate-Key-3, headquarters, TradingSymbol, Location
+Predicate-Key-2, director, Person, TradingSymbol
+
+                 CONCEPTS
+ConceptKey, ConceptName, ConceptSignType
+--------------------------------------------------
+Concept-Key-0, Dollars, Float
+Concept-Key-1, Contribution, String
+Concept-Key-2, Person, String
+Concept-Key-3, TradingSymbol, String
+Concept-Key-4, Location, String
+Concept-Key-5, Industry, String
+Concept-Key-6, Company, String
+
+                  TERMS
+TermKey, ConceptKey, Sign
+--------------------------------------------------
+Term-Key-111, Concept-Key-4, u'South_San_Francisco_California'
+Term-Key-51, Concept-Key-3, u'PMCS'
+Term-Key-50, Concept-Key-3, u'QTM'
+Term-Key-53, Concept-Key-3, u'CMCSA'
+Term-Key-52, Concept-Key-2, u'Brian L. Roberts'
+Term-Key-55, Concept-Key-5, u'Aircraft Parts and Auxiliary Equipment, NEC'
+Term-Key-54, Concept-Key-3, u'SPR'
+Term-Key-57, Concept-Key-5, u'Aerospace'
+Term-Key-56, Concept-Key-5, u'Arms industry'
+Term-Key-59, Concept-Key-6, u'Spirit AeroSystems'
+Term-Key-58, Concept-Key-0, 3207700000.0
+Term-Key-110, Concept-Key-6, u'Sunesis Pharmaceuticals'
+Term-Key-109, Concept-Key-0, 13700000.0
+Term-Key-46, Concept-Key-3, u'VIRC'
+Term-Key-47, Concept-Key-2, u'Robert J Karow'
+Term-Key-44, Concept-Key-3, u'GT'
+Term-Key-45, Concept-Key-2, u'Robert K Montgomery'
+Term-Key-42, Concept-Key-3, u'AKS'
+Term-Key-43, Concept-Key-3, u'CHB'
+Term-Key-40, Concept-Key-3, u'MER'
+Term-Key-41, Concept-Key-2, u'Shirley D Peterson'
+Term-Key-121, Concept-Key-6, u'TradeStation Group Inc'
+Term-Key-48, Concept-Key-3, u'ATPG'
+Term-Key-49, Concept-Key-2, u'Richard E. Belluzzo'
+Term-Key-127, Concept-Key-3, u'GRIF'
+Term-Key-33, Concept-Key-0, 5000.0
+Term-Key-32, Concept-Key-3, u'GE'
+Term-Key-31, Concept-Key-1, u'contrib1556'
+Term-Key-30, Concept-Key-3, u'AEO'
+Term-Key-37, Concept-Key-2, u'Geoffrey W Squire'
+Term-Key-36, Concept-Key-3, u'PGTI'
+Term-Key-35, Concept-Key-2, u'Daniel Agroskin'
+Term-Key-34, Concept-Key-2, u'Pete King'
+Term-Key-39, Concept-Key-2, u'Rosemary T. Berkery'
+Term-Key-38, Concept-Key-3, u'INFA'
+Term-Key-113, Concept-Key-3, u'PGN'
+Term-Key-128, Concept-Key-2, u'M Richard Asher'
+Term-Key-129, Concept-Key-3, u'ERTS'
+Term-Key-112, Concept-Key-2, u'Theresa M Stone'
+Term-Key-108, Concept-Key-5, u'Pharmaceutical Preparations'
+Term-Key-120, Concept-Key-0, 128500000.0
+Term-Key-115, Concept-Key-3, u'ALNY'
+Term-Key-122, Concept-Key-4, u'Plantation_Florida'
+Term-Key-123, Concept-Key-2, u'Richard C E Morgan'
+Term-Key-124, Concept-Key-3, u'CELG'
+Term-Key-125, Concept-Key-2, u'Frederick M Danziger'
+Term-Key-126, Concept-Key-3, u'MNRO'
+Term-Key-114, Concept-Key-2, u'John Maraganore'
+Term-Key-117, Concept-Key-3, u'LLTC'
+Term-Key-116, Concept-Key-2, u'Thomas Volpe'
+Term-Key-102, Concept-Key-3, u'JTX'
+Term-Key-20, Concept-Key-3, u'ACV'
+Term-Key-21, Concept-Key-2, u'Ulice Payne Jr'
+Term-Key-22, Concept-Key-3, u'WEC'
+Term-Key-23, Concept-Key-3, u'None'
+Term-Key-24, Concept-Key-3, u'MAN'
+Term-Key-25, Concept-Key-2, u'Robert L Bagby'
+Term-Key-26, Concept-Key-3, u'NAFC'
+Term-Key-27, Concept-Key-2, u'Justine Lien'
+Term-Key-28, Concept-Key-3, u'TWLL'
+Term-Key-29, Concept-Key-2, u'Michael Jesselson'
+Term-Key-139, Concept-Key-3, u'ASH'
+Term-Key-138, Concept-Key-3, u'AEP'
+Term-Key-133, Concept-Key-1, u'contrib252'
+Term-Key-132, Concept-Key-3, u'ABT'
+Term-Key-131, Concept-Key-3, u'BNI'
+Term-Key-130, Concept-Key-2, u'Roy S Roberts'
+Term-Key-137, Concept-Key-3, u'BTU'
+Term-Key-136, Concept-Key-2, u'John F. Turner'
+Term-Key-135, Concept-Key-2, u'Dave Camp'
+Term-Key-134, Concept-Key-3, u'T'
+Term-Key-103, Concept-Key-2, u'Uzia Galil'
+Term-Key-15, Concept-Key-2, u'Richard L Clemmer'
+Term-Key-14, Concept-Key-3, u'SFD'
+Term-Key-17, Concept-Key-2, u'Gregory J Szabo'
+Term-Key-16, Concept-Key-3, u'ITWO'
+Term-Key-11, Concept-Key-2, u'Frank R Noonan'
+Term-Key-10, Concept-Key-3, u'SAI'
+Term-Key-13, Concept-Key-2, u'Melvin O Wright'
+Term-Key-12, Concept-Key-3, u'AVT'
+Term-Key-19, Concept-Key-2, u'George L Fotiades'
+Term-Key-18, Concept-Key-3, u'SMSI'
+Term-Key-106, Concept-Key-3, u'LNCE'
+Term-Key-107, Concept-Key-3, u'SNSS'
+Term-Key-104, Concept-Key-3, u'ZRAN'
+Term-Key-105, Concept-Key-2, u'David V Singer'
+Term-Key-99, Concept-Key-3, u'THOR'
+Term-Key-98, Concept-Key-2, u'Daniel M Mulvena'
+Term-Key-100, Concept-Key-2, u'Margaret Milner Richardson'
+Term-Key-101, Concept-Key-3, u'LM'
+Term-Key-95, Concept-Key-3, u'IPG'
+Term-Key-94, Concept-Key-2, u'Reginald K Brack'
+Term-Key-97, Concept-Key-3, u'GMCR'
+Term-Key-96, Concept-Key-2, u'William D Davis'
+Term-Key-91, Concept-Key-4, u'Harvey_Louisiana'
+Term-Key-90, Concept-Key-6, u'Superior Energy Services'
+Term-Key-93, Concept-Key-3, u'RUSHB'
+Term-Key-92, Concept-Key-2, u'William M Rusty Rush'
+Term-Key-82, Concept-Key-2, u'Robert B. Palmer'
+Term-Key-83, Concept-Key-3, u'AMD'
+Term-Key-80, Concept-Key-2, u'Stephen C Wood'
+Term-Key-81, Concept-Key-3, u'SWIM'
+Term-Key-86, Concept-Key-3, u'SPN'
+Term-Key-87, Concept-Key-5, u'Petroleum'
+Term-Key-84, Concept-Key-2, u'William T. Clifford'
+Term-Key-85, Concept-Key-3, u'KANA'
+Term-Key-119, Concept-Key-5, u'Investment Banking'
+Term-Key-118, Concept-Key-3, u'TRAD'
+Term-Key-88, Concept-Key-5, u'Oil and Gas Field Services, NEC'
+Term-Key-89, Concept-Key-0, 1093800000.0
+Term-Key-1, Concept-Key-3, u'WMB'
+Term-Key-0, Concept-Key-2, u'Juanita H Hinshaw'
+Term-Key-3, Concept-Key-2, u'Evan Jay Silverstein'
+Term-Key-2, Concept-Key-3, u'INSU'
+Term-Key-5, Concept-Key-2, u'Joel F Gemunder'
+Term-Key-4, Concept-Key-3, u'RRI'
+Term-Key-7, Concept-Key-3, u'OCR'
+Term-Key-6, Concept-Key-3, u'UTEK'
+Term-Key-9, Concept-Key-2, u'Miriam E John'
+Term-Key-8, Concept-Key-3, u'CHE'
+Term-Key-79, Concept-Key-4, u'Dublin_Ohio'
+Term-Key-78, Concept-Key-6, u"Wendy's International"
+Term-Key-77, Concept-Key-0, 2439300000.0
+Term-Key-76, Concept-Key-5, u'Fast food'
+Term-Key-75, Concept-Key-5, u'Restaurant'
+Term-Key-74, Concept-Key-5, u'Eating and Drinking Places'
+Term-Key-73, Concept-Key-3, u'WEN'
+Term-Key-72, Concept-Key-3, u'XLNX'
+Term-Key-71, Concept-Key-3, u'WFR'
+Term-Key-70, Concept-Key-2, u'Marshall C. Turner'
+Term-Key-142, Concept-Key-1, u'contrib250'
+Term-Key-143, Concept-Key-2, u'John Campbell'
+Term-Key-140, Concept-Key-3, u'NU'
+Term-Key-141, Concept-Key-3, u'IP'
+Term-Key-146, Concept-Key-2, u'Jerry Moran'
+Term-Key-144, Concept-Key-1, u'contrib251'
+Term-Key-145, Concept-Key-0, 3250.0
+Term-Key-68, Concept-Key-3, u'PG'
+Term-Key-69, Concept-Key-3, u'EBAY'
+Term-Key-64, Concept-Key-2, u'Meg Whitman'
+Term-Key-65, Concept-Key-3, u'SPLS'
+Term-Key-66, Concept-Key-3, u'GPS'
+Term-Key-67, Concept-Key-3, u'DWA'
+Term-Key-60, Concept-Key-4, u'Wichita_Kansas'
+Term-Key-61, Concept-Key-2, u'Michael J Birck'
+Term-Key-62, Concept-Key-3, u'MOLX'
+Term-Key-63, Concept-Key-3, u'ITW'
+
+               STATEMENTS (RAW)
+SubjectTermKey, PredicateKey, ObjectTermKey
+--------------------------------------------------
+Term-Key-0, Predicate-Key-2, Term-Key-1
+Term-Key-0, Predicate-Key-2, Term-Key-2
+Term-Key-3, Predicate-Key-2, Term-Key-4
+Term-Key-5, Predicate-Key-2, Term-Key-8
+Term-Key-5, Predicate-Key-2, Term-Key-7
+Term-Key-5, Predicate-Key-2, Term-Key-6
+Term-Key-103, Predicate-Key-2, Term-Key-104
+Term-Key-9, Predicate-Key-2, Term-Key-10
+Term-Key-52, Predicate-Key-2, Term-Key-53
+Term-Key-54, Predicate-Key-5, Term-Key-59
+Term-Key-54, Predicate-Key-4, Term-Key-55
+Term-Key-54, Predicate-Key-4, Term-Key-57
+Term-Key-54, Predicate-Key-4, Term-Key-56
+Term-Key-54, Predicate-Key-7, Term-Key-58
+Term-Key-54, Predicate-Key-3, Term-Key-60
+Term-Key-73, Predicate-Key-5, Term-Key-78
+Term-Key-73, Predicate-Key-4, Term-Key-76
+Term-Key-73, Predicate-Key-4, Term-Key-75
+Term-Key-73, Predicate-Key-4, Term-Key-74
+Term-Key-73, Predicate-Key-7, Term-Key-77
+Term-Key-73, Predicate-Key-3, Term-Key-79
+Term-Key-70, Predicate-Key-2, Term-Key-72
+Term-Key-70, Predicate-Key-2, Term-Key-71
+Term-Key-15, Predicate-Key-2, Term-Key-16
+Term-Key-17, Predicate-Key-2, Term-Key-18
+Term-Key-37, Predicate-Key-2, Term-Key-38
+Term-Key-13, Predicate-Key-2, Term-Key-14
+Term-Key-39, Predicate-Key-2, Term-Key-40
+Term-Key-19, Predicate-Key-2, Term-Key-20
+Term-Key-35, Predicate-Key-2, Term-Key-36
+Term-Key-128, Predicate-Key-2, Term-Key-129
+Term-Key-107, Predicate-Key-5, Term-Key-110
+Term-Key-107, Predicate-Key-4, Term-Key-108
+Term-Key-107, Predicate-Key-7, Term-Key-109
+Term-Key-107, Predicate-Key-3, Term-Key-111
+Term-Key-105, Predicate-Key-2, Term-Key-106
+Term-Key-98, Predicate-Key-2, Term-Key-99
+Term-Key-100, Predicate-Key-2, Term-Key-102
+Term-Key-100, Predicate-Key-2, Term-Key-101
+Term-Key-94, Predicate-Key-2, Term-Key-95
+Term-Key-96, Predicate-Key-2, Term-Key-97
+Term-Key-125, Predicate-Key-2, Term-Key-126
+Term-Key-125, Predicate-Key-2, Term-Key-127
+Term-Key-92, Predicate-Key-2, Term-Key-93
+Term-Key-142, Predicate-Key-6, Term-Key-143
+Term-Key-142, Predicate-Key-1, Term-Key-134
+Term-Key-142, Predicate-Key-0, Term-Key-33
+Term-Key-144, Predicate-Key-6, Term-Key-146
+Term-Key-144, Predicate-Key-1, Term-Key-134
+Term-Key-144, Predicate-Key-0, Term-Key-145
+Term-Key-31, Predicate-Key-6, Term-Key-34
+Term-Key-31, Predicate-Key-1, Term-Key-32
+Term-Key-31, Predicate-Key-0, Term-Key-33
+Term-Key-47, Predicate-Key-2, Term-Key-48
+Term-Key-45, Predicate-Key-2, Term-Key-46
+Term-Key-41, Predicate-Key-2, Term-Key-44
+Term-Key-41, Predicate-Key-2, Term-Key-42
+Term-Key-41, Predicate-Key-2, Term-Key-43
+Term-Key-64, Predicate-Key-2, Term-Key-65
+Term-Key-64, Predicate-Key-2, Term-Key-66
+Term-Key-64, Predicate-Key-2, Term-Key-67
+Term-Key-64, Predicate-Key-2, Term-Key-68
+Term-Key-64, Predicate-Key-2, Term-Key-69
+Term-Key-11, Predicate-Key-2, Term-Key-12
+Term-Key-61, Predicate-Key-2, Term-Key-62
+Term-Key-61, Predicate-Key-2, Term-Key-63
+Term-Key-49, Predicate-Key-2, Term-Key-51
+Term-Key-49, Predicate-Key-2, Term-Key-50
+Term-Key-21, Predicate-Key-2, Term-Key-22
+Term-Key-21, Predicate-Key-2, Term-Key-23
+Term-Key-21, Predicate-Key-2, Term-Key-24
+Term-Key-123, Predicate-Key-2, Term-Key-124
+Term-Key-25, Predicate-Key-2, Term-Key-26
+Term-Key-27, Predicate-Key-2, Term-Key-28
+Term-Key-29, Predicate-Key-2, Term-Key-30
+Term-Key-82, Predicate-Key-2, Term-Key-83
+Term-Key-80, Predicate-Key-2, Term-Key-81
+Term-Key-112, Predicate-Key-2, Term-Key-113
+Term-Key-86, Predicate-Key-5, Term-Key-90
+Term-Key-86, Predicate-Key-4, Term-Key-88
+Term-Key-86, Predicate-Key-4, Term-Key-87
+Term-Key-86, Predicate-Key-7, Term-Key-89
+Term-Key-86, Predicate-Key-3, Term-Key-91
+Term-Key-114, Predicate-Key-2, Term-Key-115
+Term-Key-84, Predicate-Key-2, Term-Key-85
+Term-Key-116, Predicate-Key-2, Term-Key-117
+Term-Key-133, Predicate-Key-6, Term-Key-135
+Term-Key-133, Predicate-Key-1, Term-Key-134
+Term-Key-133, Predicate-Key-0, Term-Key-33
+Term-Key-118, Predicate-Key-5, Term-Key-121
+Term-Key-118, Predicate-Key-4, Term-Key-119
+Term-Key-118, Predicate-Key-7, Term-Key-120
+Term-Key-118, Predicate-Key-3, Term-Key-122
+Term-Key-130, Predicate-Key-2, Term-Key-132
+Term-Key-130, Predicate-Key-2, Term-Key-131
+Term-Key-136, Predicate-Key-2, Term-Key-139
+Term-Key-136, Predicate-Key-2, Term-Key-138
+Term-Key-136, Predicate-Key-2, Term-Key-137
+Term-Key-136, Predicate-Key-2, Term-Key-140
+Term-Key-136, Predicate-Key-2, Term-Key-141
+
+            STATEMENTS (READABLE)
+--------------------------------------------------
+(Person:u'Juanita H Hinshaw') <director> (TradingSymbol:u'WMB')
+(Person:u'Juanita H Hinshaw') <director> (TradingSymbol:u'INSU')
+(Person:u'Evan Jay Silverstein') <director> (TradingSymbol:u'RRI')
+(Person:u'Joel F Gemunder') <director> (TradingSymbol:u'CHE')
+(Person:u'Joel F Gemunder') <director> (TradingSymbol:u'OCR')
+(Person:u'Joel F Gemunder') <director> (TradingSymbol:u'UTEK')
+(Person:u'Uzia Galil') <director> (TradingSymbol:u'ZRAN')
+(Person:u'Miriam E John') <director> (TradingSymbol:u'SAI')
+(Person:u'Brian L. Roberts') <director> (TradingSymbol:u'CMCSA')
+(TradingSymbol:u'SPR') <name> (Company:u'Spirit AeroSystems')
+(TradingSymbol:u'SPR') <industry> (Industry:u'Aircraft Parts and Auxiliary Equipment, NEC')
+(TradingSymbol:u'SPR') <industry> (Industry:u'Aerospace')
+(TradingSymbol:u'SPR') <industry> (Industry:u'Arms industry')
+(TradingSymbol:u'SPR') <revenue> (Dollars:3207700000.0)
+(TradingSymbol:u'SPR') <headquarters> (Location:u'Wichita_Kansas')
+(TradingSymbol:u'WEN') <name> (Company:u"Wendy's International")
+(TradingSymbol:u'WEN') <industry> (Industry:u'Fast food')
+(TradingSymbol:u'WEN') <industry> (Industry:u'Restaurant')
+(TradingSymbol:u'WEN') <industry> (Industry:u'Eating and Drinking Places')
+(TradingSymbol:u'WEN') <revenue> (Dollars:2439300000.0)
+(TradingSymbol:u'WEN') <headquarters> (Location:u'Dublin_Ohio')
+(Person:u'Marshall C. Turner') <director> (TradingSymbol:u'XLNX')
+(Person:u'Marshall C. Turner') <director> (TradingSymbol:u'WFR')
+(Person:u'Richard L Clemmer') <director> (TradingSymbol:u'ITWO')
+(Person:u'Gregory J Szabo') <director> (TradingSymbol:u'SMSI')
+(Person:u'Geoffrey W Squire') <director> (TradingSymbol:u'INFA')
+(Person:u'Melvin O Wright') <director> (TradingSymbol:u'SFD')
+(Person:u'Rosemary T. Berkery') <director> (TradingSymbol:u'MER')
+(Person:u'George L Fotiades') <director> (TradingSymbol:u'ACV')
+(Person:u'Daniel Agroskin') <director> (TradingSymbol:u'PGTI')
+(Person:u'M Richard Asher') <director> (TradingSymbol:u'ERTS')
+(TradingSymbol:u'SNSS') <name> (Company:u'Sunesis Pharmaceuticals')
+(TradingSymbol:u'SNSS') <industry> (Industry:u'Pharmaceutical Preparations')
+(TradingSymbol:u'SNSS') <revenue> (Dollars:13700000.0)
+(TradingSymbol:u'SNSS') <headquarters> (Location:u'South_San_Francisco_California')
+(Person:u'David V Singer') <director> (TradingSymbol:u'LNCE')
+(Person:u'Daniel M Mulvena') <director> (TradingSymbol:u'THOR')
+(Person:u'Margaret Milner Richardson') <director> (TradingSymbol:u'JTX')
+(Person:u'Margaret Milner Richardson') <director> (TradingSymbol:u'LM')
+(Person:u'Reginald K Brack') <director> (TradingSymbol:u'IPG')
+(Person:u'William D Davis') <director> (TradingSymbol:u'GMCR')
+(Person:u'Frederick M Danziger') <director> (TradingSymbol:u'MNRO')
+(Person:u'Frederick M Danziger') <director> (TradingSymbol:u'GRIF')
+(Person:u'William M Rusty Rush') <director> (TradingSymbol:u'RUSHB')
+(Contribution:u'contrib250') <recipient> (Person:u'John Campbell')
+(Contribution:u'contrib250') <contributor> (TradingSymbol:u'T')
+(Contribution:u'contrib250') <amount> (Dollars:5000.0)
+(Contribution:u'contrib251') <recipient> (Person:u'Jerry Moran')
+(Contribution:u'contrib251') <contributor> (TradingSymbol:u'T')
+(Contribution:u'contrib251') <amount> (Dollars:3250.0)
+(Contribution:u'contrib1556') <recipient> (Person:u'Pete King')
+(Contribution:u'contrib1556') <contributor> (TradingSymbol:u'GE')
+(Contribution:u'contrib1556') <amount> (Dollars:5000.0)
+(Person:u'Robert J Karow') <director> (TradingSymbol:u'ATPG')
+(Person:u'Robert K Montgomery') <director> (TradingSymbol:u'VIRC')
+(Person:u'Shirley D Peterson') <director> (TradingSymbol:u'GT')
+(Person:u'Shirley D Peterson') <director> (TradingSymbol:u'AKS')
+(Person:u'Shirley D Peterson') <director> (TradingSymbol:u'CHB')
+(Person:u'Meg Whitman') <director> (TradingSymbol:u'SPLS')
+(Person:u'Meg Whitman') <director> (TradingSymbol:u'GPS')
+(Person:u'Meg Whitman') <director> (TradingSymbol:u'DWA')
+(Person:u'Meg Whitman') <director> (TradingSymbol:u'PG')
+(Person:u'Meg Whitman') <director> (TradingSymbol:u'EBAY')
+(Person:u'Frank R Noonan') <director> (TradingSymbol:u'AVT')
+(Person:u'Michael J Birck') <director> (TradingSymbol:u'MOLX')
+(Person:u'Michael J Birck') <director> (TradingSymbol:u'ITW')
+(Person:u'Richard E. Belluzzo') <director> (TradingSymbol:u'PMCS')
+(Person:u'Richard E. Belluzzo') <director> (TradingSymbol:u'QTM')
+(Person:u'Ulice Payne Jr') <director> (TradingSymbol:u'WEC')
+(Person:u'Ulice Payne Jr') <director> (TradingSymbol:u'None')
+(Person:u'Ulice Payne Jr') <director> (TradingSymbol:u'MAN')
+(Person:u'Richard C E Morgan') <director> (TradingSymbol:u'CELG')
+(Person:u'Robert L Bagby') <director> (TradingSymbol:u'NAFC')
+(Person:u'Justine Lien') <director> (TradingSymbol:u'TWLL')
+(Person:u'Michael Jesselson') <director> (TradingSymbol:u'AEO')
+(Person:u'Robert B. Palmer') <director> (TradingSymbol:u'AMD')
+(Person:u'Stephen C Wood') <director> (TradingSymbol:u'SWIM')
+(Person:u'Theresa M Stone') <director> (TradingSymbol:u'PGN')
+(TradingSymbol:u'SPN') <name> (Company:u'Superior Energy Services')
+(TradingSymbol:u'SPN') <industry> (Industry:u'Oil and Gas Field Services, NEC')
+(TradingSymbol:u'SPN') <industry> (Industry:u'Petroleum')
+(TradingSymbol:u'SPN') <revenue> (Dollars:1093800000.0)
+(TradingSymbol:u'SPN') <headquarters> (Location:u'Harvey_Louisiana')
+(Person:u'John Maraganore') <director> (TradingSymbol:u'ALNY')
+(Person:u'William T. Clifford') <director> (TradingSymbol:u'KANA')
+(Person:u'Thomas Volpe') <director> (TradingSymbol:u'LLTC')
+(Contribution:u'contrib252') <recipient> (Person:u'Dave Camp')
+(Contribution:u'contrib252') <contributor> (TradingSymbol:u'T')
+(Contribution:u'contrib252') <amount> (Dollars:5000.0)
+(TradingSymbol:u'TRAD') <name> (Company:u'TradeStation Group Inc')
+(TradingSymbol:u'TRAD') <industry> (Industry:u'Investment Banking')
+(TradingSymbol:u'TRAD') <revenue> (Dollars:128500000.0)
+(TradingSymbol:u'TRAD') <headquarters> (Location:u'Plantation_Florida')
+(Person:u'Roy S Roberts') <director> (TradingSymbol:u'ABT')
+(Person:u'Roy S Roberts') <director> (TradingSymbol:u'BNI')
+(Person:u'John F. Turner') <director> (TradingSymbol:u'ASH')
+(Person:u'John F. Turner') <director> (TradingSymbol:u'AEP')
+(Person:u'John F. Turner') <director> (TradingSymbol:u'BTU')
+(Person:u'John F. Turner') <director> (TradingSymbol:u'NU')
+(Person:u'John F. Turner') <director> (TradingSymbol:u'IP')
+
+                GRAPH SUMMARY
+--------------------------------------------------
+# of Concepts: 7
+# of Predicates: 8
+# of Terms: 200 (graph vertices)
+# of Statements: 100 (graph edges)
+==================================================
